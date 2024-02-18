@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.mainbox{
+    height: 75vh;
+    width: 50vb;
+    
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+.header{
+    display: flex;
+    margin: 10px;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+#cityname{
+    height: 37px;
+    width: 420px;
+    border-radius: 0;
+    
+
+}
+#searchbutton{
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+    margin-right: 13px;
+}
+.whether_img{
+    
+    height: 500px;
+    width: 488px;
+    margin: 20px;
+}
+.temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 300;
+}
+.whether_details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+.humidity{
+    margin-left: 20px;
+}
+.wind_speed{
+    margin-right: 40px;
+    height: 40px;
+    width: 40px;
+}
+#sky{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+img{
+    height: 500px;
+    width: 500px;
+    object-fit: fill;
+}
